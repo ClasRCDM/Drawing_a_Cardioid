@@ -77,11 +77,12 @@ class Cardioid:
         """
 
         # ! Change color gradually
-        self.counter += self.inc
-        self.counter, self.inc = (
-            self.counter, self.inc) if 0 < self.counter < 1 else (
-            max(min(self.counter, 1), 0), -self.inc
-        )
+        if self.anim:
+            self.counter += self.inc
+            self.counter, self.inc = (
+                self.counter, self.inc) if 0 < self.counter < 1 else (
+                max(min(self.counter, 1), 0), -self.inc
+            )
 
         color1, color2 = self.get_colors
         yield Color(color1).lerp(color2, self.counter)
