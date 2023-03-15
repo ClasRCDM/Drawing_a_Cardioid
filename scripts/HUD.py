@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 from typing import Final
 from color_picker import ColorPicker
 

@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 from pygame import Rect, Color, Surface
 
 from pygame_gui import UIManager

@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 from dataclasses import dataclass
 from math import cos, pi, sin
 from typing import Final, Self

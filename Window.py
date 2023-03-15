@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 from asyncio import create_task, run
 
 from pygame import DOUBLEBUF, NOFRAME, K_ESCAPE, KEYDOWN, QUIT, display
